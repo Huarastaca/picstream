@@ -8,7 +8,8 @@
     <meta name="generator" content="Hugo 0.104.2">
     <title>PicStreamVideoPreview</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/cover/">
+
+    <link rel="stylesheet" href="ReviewCSS.css">
 
     
 
@@ -73,30 +74,87 @@
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
+  
+  <!--se remover esse "h-100" pode ser util-->
+  <body class="d-flex h-100 text-center text-bg-dark">  
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 20 20">
+      
+      <symbol id="Refresh">
+      <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+      <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+      </symbol>
+
+      <symbol id="Download">
+        <path fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+      </symbol>
+
+      <symbol id="Plus">
+        <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+      </symbol>
+    
+    
+    </svg>
+
+
+
+  </body>
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
     <div>
-      <h3 class="float-md-start mb-0">Cover</h3>
+      <h3 class="float-md-start mb-0" >FIGHT CLUB</h3>
+
+
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-        <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+        <a >  <svg class="bi pe-none me-2" width="50" height="50">
+          <use xlink:href="#Refresh"/>
+        </svg>   </a>
+
+
+        <a >  <svg class="bi pe-none me-2" width="50" height="50">
+          <use xlink:href="#Plus"/>
+        </svg>  </a>
+
+
+        <a >  <svg class="bi pe-none me-2" width="35" height="50">
+          <use xlink:href="#Download"/>
+        </svg>  </a>
+
+
+
       </nav>
     </div>
   </header>
 
   <main class="px-3">
-    <h1>Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
+    <div>     
+        <img src="fight-club-preview.gif" alt="teste" width="100%">
+
+    </div>
+      <div id="card" class="card " style="width: 18rem;">
+        <div id="cardbody" class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      
+
+    </div>
   </main>
 
   <footer class="mt-auto text-white-50">
-    <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+    <!-- nem todos os nomes estão funcionais-->
+    <p>Direção <a href="https://pt.wikipedia.org/wiki/David_Fincher" class="text-white">
+      David Fincher</a></p>
+    
+    <p>Roteiristas <a href="https://pt.wikipedia.org/wiki/Chuck_Palahniuk" class="text-white">    
+      Chuck Palahniuk, Jim Uhls</a></p>  
+
+    <p>Artistas <a href="https://pt.wikipedia.org/wiki/Brad_Pitt" class="text-white">
+      Brad Pitt, Edward Norton, Meat Loaf</a></p>  
+
+
   </footer>
 </div>
 
