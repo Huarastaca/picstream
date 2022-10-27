@@ -1,6 +1,6 @@
 
 
-h1#teste {  
+#teste {  
     
   color: #249F38;
 
@@ -15,10 +15,11 @@ h1#teste {
 
 
 
-button#testebtn{
+#testebtn{
   box-sizing: border-box;
 
 position: center;
+align-content: center;
 width: 135px;
 height: 43.5px;
 
