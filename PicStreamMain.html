@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>PicStream</title>
+
+    <link rel="stylesheet" href="MainCSS.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
+
+    
+
+    
+
+<link href="bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      body {
+        background-color: #1E1E1E;
+      }
+
+      main {
+        background-color: #1E1E1E;
+      }
+
+      .greypic{
+        background-color: #1E1E1E;
+      }
+
+      .greenpic{
+        background-color: #249F38;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+  </head>
+  <body>
+    
+<header>
+
+  <div class="navbar navbar-dark bg-dark shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand d-flex align-items-center">
+      
+        <strong>PicStream</strong>
+      
+      </a>
+    </div>
+  </div>
+
+
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <!--teste-->
+    <img src="fight-club-preview.gif" alt="teste" width="100%">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+
+        <h1 id="teste" >Fight Club</h1>
+        
+        <p class="lead text-muted">Um homem deprimido que sofre de insônia conhece um estranho vendedor chamado Tyler Durden e se vê morando em uma casa suja depois que seu perfeito apartamento é destruído. A dupla forma um clube com regras rígidas onde homens lutam. A parceria perfeita é comprometida quando uma mulher, Marla, atrai a atenção de Tyler.</p>
+        <p>
+
+          <a id="testebtn" type="button" class="btn btn-sm btn-outline-secondary" >Assistir</a>
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <div class="album py-5 picstreamgrey">
+    <div class="container">
+
+      
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <!--clube da luta-->
+        <!-- review leva par outo html com uma preview dp filme-->
+        <div class="col">
+          <div class="card shadow-sm">
+            
+            <img src="fight-club.gif" alt="Clube da Luta" width="100%" height="225">
+            
+
+
+            <div class="card-body greypic">
+
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                
+                <div class="btn-group">
+
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="PicStreamPreview.html" target="_blank">View</a>
+                  <!--EDITAR O BOTÃO PARA LEVAR A OUTRO SITE-->
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt0137523/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+                </div>
+                <small id="smallGreen" class="text-muted">9 mins</small>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--fim clube da luta-->
+
+        <!--the batman-->    
+        
+        <div class="col">
+           <div class="card shadow-sm">
+
+            <img src="the-batman.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt1877830/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--fim the batman-->
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="breakingbad.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt0903747/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="jojo.gif" alt="Clube da Luta" width="100%" height="225">
+
+
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt2359704/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="taxi.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt0075314/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="aot.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt2560140/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="akira.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt0094625/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="gatito.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt6317068/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="rickemorto.gif" alt="Clube da Luta" width="100%" height="225">
+
+            <div class="card-body greypic">
+
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <a id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary" href="https://www.imdb.com/title/tt2861424/" target="_blank">IMDB</a>
+                  <button id="btnGreen" type="button" class="btn btn-sm btn-outline-secondary">Assistir</button>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1"> Bootstrap</p>
+  </div>
+</footer>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

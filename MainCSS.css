@@ -1,0 +1,25 @@
+
+
+#teste {  
+    
+  color: #249F38;
+
+}
+
+#btnGreen {
+  color: #249F38;
+  
+}
+
+#testebtn{
+  box-sizing: border-box;
+
+position: center;
+align-content: center;
+width: 135px;
+height: 43.5px;
+
+
+border: 3.3px solid #249F38;
+border-radius: 36px;
+}
